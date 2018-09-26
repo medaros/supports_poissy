@@ -1,12 +1,12 @@
 # INTRODUCTION
 
-## 1.Qu’est ce que la veille numérique ?
+## 1. Qu’est ce que la veille numérique ?
 	Il s'agit de l'observation de l'environnement technologique, technique et économique de l'entreprise. 
 	Cette approche globale doit aider au développement de l'entreprise.
 	Elle permet aussi une meilleure réactivité de l'entreprise face à un danger ou un changement.
 	La multiplication des outils rend cette veille plus accessible aux entreprises de taille plus modeste. 
 
-## 1.La veille technologique, ou veille numérique
+## 1. La veille technologique, ou veille numérique
 	La veille technologique peut être l'un des aspects de la veille stratégique. 
 	Mais selon l'activité de l'entreprise ou du professionnel, on peut également parler de veille numérique. 
 	Elle se concentre dans ce cas sur les nouvelles méthodes ou les nouvelles solutions développées dans un cadre 
@@ -14,13 +14,13 @@
 	Pour un professionnel, cela signifie donc une écoute constante des nouvelles normes, des nouvelles pratiques ou des 
 	nouveaux outils. 
 
-## 1.Adapter ses outils à ses objectifs
+## 1. Adapter ses outils à ses objectifs
 	Avec le Web 2.0, de nouveaux outils et de nouvelles pratiques ont émergé. 
 	La veille est désormais proactive. Elle est aussi facilitée par des outils dédiés. 
 	Certains outils sont payants, d'autres gratuits.
 	Quelques exemples d'outils gratuits qui peuvent aider à organiser sa veille. 
 
-## 1.Quels sont les langages de programmation les plus utilisés par les développeurs ?
+## 1. Quels sont les langages de programmation les plus utilisés par les développeurs ?
 	Ben Frederickson, un développeur et blogueur, s'est amusé à dresser un classement de la popularité des langages de 
 	programmation 
 	en comptant tout simplement le nombre de personnes qui les utilisaient sur les plateformes d'hébergement de code, et 
@@ -46,7 +46,7 @@
 	Cela dit, que nous révèle son analyse ? 
 	C'est ce que nous allons découvrir dans la suite.
 
-## 1.Classement des langages en fonction de leur base d’utilisateurs mensuels actifs
+## 1. Classement des langages en fonction de leur base d’utilisateurs mensuels actifs
 	JavaScript enregistre sur toute la période le plus grand nombre d'utilisateurs 
 	mensuels actifs, avec une bonne longueur d'avance sur les autres. Ce n'est toutefois pas 
 	une surprise, car comme le souligne Ben Frederickson, c'est le langage que tous les programmeurs ont dû ou devront 
@@ -59,7 +59,7 @@
 	mesure où même des projets comme GCC ont été 
 	convertis de C en C ++ pour avoir accès à certaines fonctionnalités en C ++. 
 
-## 1.Langages à apprendre en 2018
+## 1. Langages à apprendre en 2018
 	Il s'agit des langages avec les bases d'utilisateurs ayant les plus fortes croissances, en ce qui concerne le 
 	pourcentage 
 	de développeurs qui les utilisent sur GitHub. Cela concerne donc en général les jeunes langages qui semblent avoir la 
@@ -67,61 +67,3 @@
 	se trouve le langage Go développé par Google, suivi de TypeScript, le surensemble typé de JavaScript qui est développé 
 	par Microsoft.
 
-# MarkDown
-
-<a name="top">
-
-[atteindre les ancres](#ancres)
-
-Langage qui permet de mettre en forme du texte sur le web: caracteres gras, italique, liste, tableau, insertion d'images, de liens....
-
-il se presente comme du texte classique avec des caracteres speciaux non alphabetiques tel que # ou * par example.
-
-utilise sur GitHub, le markdown avec une previsualisation en direct du resultat.
-
-# '#' = H1
-## '##' = H2
-### '###' = H3
-#### '####' = H4
-##### '#####' = H5
-###### '#######' = H6
-
-pour les  balises ne soient pas interpretees je les entoure de deux guillemets inverses touches: alt gr + 7 ''
-
-** ou __ pour ecrire en italique comme: *test* ou _test_   
-** ** ou ____ pour ecrire en gras comme: **test** ou __test__  
-~~ ~~ pour ecrire en gras comme: ~~test~~ ou ~~test~~
-
-# Les listes
-
-1. premier objet dans une liste ordonnee.
-2. second objet dans ine liste ordonnee.
-    * puce de liste non ordonnee.
-18. les nombres sans importance, il suffit qu'il y ait un nombre et GitHub l'affiche a la suite des premiers objets de la liste.
-
-Debut de la ligne + 3 espaces = sauter une ligne.
-
-    2 espaces pour retourner a la ligne dans la meme paragraohe.
-
-    * liste non ordonnee utlise les asterisques,
-    - le signe moins
-    + et le plus
-
-# Les liens
-
-* [Lien de type inline](https://www.google.com)
-* [Acceuil de Google](https://www.google.com)
-* [Un Fichier sur mon Github](https://github.com/medaros/supports_poissy/blob/master/README.md)
-
-# Les ancres
-
-<a name="ancres">
-
-[Retour en haut](#top)
-
-# Les images
-
-![Pause](https://images.pexels.com/photos/1093909/pexels-photo-1093909.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260)
-
-
-	
