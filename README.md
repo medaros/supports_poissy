@@ -6,7 +6,7 @@
 	Elle permet aussi une meilleure réactivité de l'entreprise face à un danger ou un changement.
 	La multiplication des outils rend cette veille plus accessible aux entreprises de taille plus modeste. 
 
-## 1. La veille technologique, ou veille numérique
+## 2. La veille technologique, ou veille numérique
 	La veille technologique peut être l'un des aspects de la veille stratégique. 
 	Mais selon l'activité de l'entreprise ou du professionnel, on peut également parler de veille numérique. 
 	Elle se concentre dans ce cas sur les nouvelles méthodes ou les nouvelles solutions développées dans un cadre 
@@ -14,13 +14,13 @@
 	Pour un professionnel, cela signifie donc une écoute constante des nouvelles normes, des nouvelles pratiques ou des 
 	nouveaux outils. 
 
-## 1. Adapter ses outils à ses objectifs
+## 3. Adapter ses outils à ses objectifs
 	Avec le Web 2.0, de nouveaux outils et de nouvelles pratiques ont émergé. 
 	La veille est désormais proactive. Elle est aussi facilitée par des outils dédiés. 
 	Certains outils sont payants, d'autres gratuits.
 	Quelques exemples d'outils gratuits qui peuvent aider à organiser sa veille. 
 
-## 1. Quels sont les langages de programmation les plus utilisés par les développeurs ?
+## 4. Quels sont les langages de programmation les plus utilisés par les développeurs ?
 	Ben Frederickson, un développeur et blogueur, s'est amusé à dresser un classement de la popularité des langages de 
 	programmation 
 	en comptant tout simplement le nombre de personnes qui les utilisaient sur les plateformes d'hébergement de code, et 
@@ -46,7 +46,7 @@
 	Cela dit, que nous révèle son analyse ? 
 	C'est ce que nous allons découvrir dans la suite.
 
-## 1. Classement des langages en fonction de leur base d’utilisateurs mensuels actifs
+## 5. Classement des langages en fonction de leur base d’utilisateurs mensuels actifs
 	JavaScript enregistre sur toute la période le plus grand nombre d'utilisateurs 
 	mensuels actifs, avec une bonne longueur d'avance sur les autres. Ce n'est toutefois pas 
 	une surprise, car comme le souligne Ben Frederickson, c'est le langage que tous les programmeurs ont dû ou devront 
@@ -59,7 +59,7 @@
 	mesure où même des projets comme GCC ont été 
 	convertis de C en C ++ pour avoir accès à certaines fonctionnalités en C ++. 
 
-## 1. Langages à apprendre en 2018
+## 6. Langages à apprendre en 2018
 	Il s'agit des langages avec les bases d'utilisateurs ayant les plus fortes croissances, en ce qui concerne le 
 	pourcentage 
 	de développeurs qui les utilisent sur GitHub. Cela concerne donc en général les jeunes langages qui semblent avoir la 
