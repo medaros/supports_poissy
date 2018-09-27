@@ -1,0 +1,53 @@
+* {
+    text-align: right
+}
+
+body {
+    background-color: #FDB;
+}
+
+header {
+    background-color: #903;
+}
+
+/*
+    Background color = pour definir la couleur de fond de l'element
+    Background = pour definir l'ensemble des proprietes de fond de l'element
+*/
+
+nav {
+    background: #DFA;
+    height: 60px;
+}
+
+section {
+    background: navy;
+    height: 550px;
+}
+
+article {
+    background: #F53;
+    height: 66px;
+}
+
+footer {
+    background: #DFA;
+    height: 75px;
+}
+
+nav, footer {
+    color: #A32;
+}
+
+/* cibler un class avec un point devant */
+.jaune {
+    background-color: yellow
+}
+
+/* cibler un id avec un diese devant */
+#noir {
+    background-color: #000;
+    color:white;
+    text-align: justify;
+    font-size: 25px;
+}
