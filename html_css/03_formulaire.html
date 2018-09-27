@@ -10,6 +10,56 @@
     <link rel="stylesheet" href="css/03_formulaire.css">
 </head>
 <body>
-    
+    <form>
+        <!-- for = id de formulaire -->
+        <label for="pseudo">Pseudo*</label><br>
+        <!-- Input = remplir les donnees txt pwd radio checkbox ...-->
+        <input class="txt" name="pseudo" type="text" placeholder="Username" require>
+        <br>
+
+        <!-- MDP -->
+        <label for="mdp">Mot de passe*</label><br>
+        <input class="txt" name="mdp" type="password" placeholder="mot de passe" require>
+        <br>
+
+        <!--Email-->
+        <label for="mail">Addresse email*</label><br>
+        <input class="txt" name="mail" type="email" placeholder="email@exemple.com" require>
+        <br>
+
+        <!--Fichier-->
+        <label for="photo">Photo</label><br>
+        <input type="file" name="photo">
+        <br>
+
+        <!-- cases a coucher -->
+        <label for="question">Quelle destination choisissiez-vous?</label>
+        <p>
+            <input type="checkbox" name="question" checked>Mars
+            <input type="checkbox" name="question">Panama
+            <input type="checkbox" name="question">Suisse
+        </p>     
+
+        <!-- une case a coucher -->
+        <label for="question2">Quelle destination choisissiez-vous?</label>
+        <p>
+            <input type="radio" name="question2">Mars
+            <input type="radio" name="question2"checked>Panama
+            <input type="radio" name="question2">Suisse
+        </p>
+
+        <!--zone de text-->
+        <label for="commentaire">Commentaire</label>
+        <br>
+
+        <textarea id="comment" name="commentaire" cols="80" rows="8"></textarea>
+        <br>
+
+        <!-- button pour s'inscrire -->
+        <input class="btn green" type="submit" name="inscription" value="Envoyer">
+        
+        <!-- button pour vider le form -->
+        <input class="btn red" type="reset" name="annuler" value="Annuler">
+    </form>
 </body>
 </html>
