@@ -1,0 +1,42 @@
+body {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    background: darkslategray;
+    color:#FFF;
+}
+
+#zone3{
+    background: #000;
+    color:#FFF;
+    height:100px;
+}
+
+section p:nth-child(even) {
+    background:blue;
+}
+
+section p:nth-child(3), p:nth-child(10) {
+    background:orange;
+}
+
+.zone1 {
+    color: #DC143C;
+    background: black;
+    height:30px;
+
+}
+
+.lime {
+    color: #00FF00;
+}
+
+.zone2 {
+    color: #008080;
+}
+
+ul li:nth-child(2) {
+    background-color:red;
+    color:#FFF;
+}
