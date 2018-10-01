@@ -22,16 +22,23 @@ caption {
 thead {
     background:#eea !important;
     font-weight: bold;
+    border-bottom: 1px solid #000;
     
 }
 
-td:first-child {
-    background:#c55 !important;
-    color:white;
-    font-weight: bolder;
+td {
+    border: 1px dotted #ccc;
 }
 
-tfoot {
+td:first-child {
+    background:#c55;
+    color:white;
+    font-weight: bolder;
+    border-right: 1px solid #000;
+}
+
+tfoot td {
     background:#caa !important;
     font-weight: bold;
+    border-top: 1px solid #000;
 }

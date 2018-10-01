@@ -1,0 +1,34 @@
+
+
+.contenu {
+    background:linear-gradient(to left, #F00, #FF0);
+    /* degrade qui demarre avec la premiere couleur et fini
+    avec la seconde de haut en bas par defaut mais ici*/
+    width: 45em;
+    height: 45em;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    animation-name: rotaate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    box-shadow: 0px 0px 10px orange;
+}
+
+i {
+    color:orange;
+}
+
+@keyframes rotaate {
+    from {
+        transform: rotate(0);
+        box-shadow: 0px 0px 10px red;
+
+    }
+
+    to {
+        transform: rotate(360deg);
+        box-shadow: 0px 0px 10px black;
+
+    }
+}
