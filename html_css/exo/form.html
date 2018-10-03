@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<style>
+
+    #container {
+        width: 350px;
+        background:snow;
+        box-shadow: 0 0 2px #000;
+        height: 500px;
+        display: flex;
+        align-items: center;
+    }
+
+    form {
+        width: 100%;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding:10px;
+    }
+
+
+    input {
+        display: block;
+        width: 80%;
+        height: 30px;
+        margin: 10px auto;
+        border-radius: 3px;
+        border:1px solid #ccc;
+        outline: none;
+    }
+
+    #typebutt {
+        background:seagreen;
+        color:#EEE;
+        font-size: 16px;
+        height:35px;
+    }
+
+    p {
+        font-size:22px;
+        clear: both;
+    }
+
+    .switch {
+        float: left;
+        background:#555;
+        height: 50px;
+        color:white;
+        text-align:center;
+        line-height: 50px;
+        width: 50%;
+        cursor: pointer;
+
+    }
+
+    .switchafter {
+        background: #ccc !important;
+        transition: .4s;
+    }
+
+    .switch::after {
+        clear: both;
+    }
+    
+    #form2 {
+        display: none;
+    }
+
+    @keyframes anim {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+
+    @keyframes anim2 {
+        from {opacity: 1;}
+        to {opacity: 0;}
+    }
+</style>
+<body>
+    <div id="container">
+        <form action="">
+            
+            <div id="first_half" class="switch switchafter">
+                Sign Up
+            </div>
+            
+            <div class="switch" id="second_half">
+                Sign In
+            </div>
+
+            <div id="form1">
+                    <p>form1</p>
+                    <small>By Signing up you agree to share your info</small>
+                    <br>
+                    <input type="text" placeholder="Nom*">
+                    <input type="email" placeholder="Email*">
+                    <input type="password" placeholder="Mot de passe*">
+                    <input type="password" placeholder="Retapez le Mot de passe*">
+                    <input id="typebutt"type="button" value="Subscribe">
+            </div>
+
+            <div id="form2">
+                    <p>form2</p>
+                    <small>By Signing up you agree to share your info</small>
+                    <br>
+                    <input type="text" placeholder="Nom*">
+                    <input type="email" placeholder="Email*">
+                    <input type="password" placeholder="Mot de passe*">
+                    <input type="password" placeholder="Retapez le Mot de passe*">
+                    <input id="typebutt"type="button" value="Subscribe">
+            </div>
+        </form>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $('#second_half').click(function () {
+                $('#second_half').addClass('switchafter');
+                $('#first_half').removeClass('switchafter');
+                $('#form1').css({'display':'none'});
+                $('#form2').css({'display':'block'
+                ,
+                    'animation-name': 'anim',
+                    'animation-duration': '1s'                    });
+
+            });
+
+            $('#first_half').click(function () {
+                $('#first_half').addClass('switchafter');
+                $('#second_half').removeClass('switchafter');
+                $('#form1').css({'display':'block'
+                ,
+                    'animation-name': 'anim',
+                    'animation-duration': '1s' });
+                $('#form2').css({'display':'none'
+                });
+
+
+            });
+        </script>
+    </div>
+</body>
+</html>

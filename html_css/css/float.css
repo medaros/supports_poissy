@@ -1,0 +1,23 @@
+body {
+    margin: 0 auto;
+}
+
+.boite {
+    float:left; /* permet de placer les balises cote a cote alors que selon le flux de web standard les elements se placent les uns au-dessus des autres */
+    background-image: url('../img/GitHub.jpg');
+    width: 350px;
+    height:150px;
+    background-size: contain;
+    margin: 0 auto;
+    color: transparent;
+    transition: margin 0.5s;
+}
+
+.boite:hover {
+    margin-top: 10vh;
+}
+
+.clear {
+    clear:both;
+    color: transparent 
+}

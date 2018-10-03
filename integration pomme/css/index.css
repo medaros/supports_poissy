@@ -1,0 +1,115 @@
+#container {
+    width: 750px;
+    border: 2px solid #B0CF42;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin:auto;
+    box-shadow: 0 10px 0px #C8E956, 0 -10px 0px #C8E956;
+    
+}
+
+/* 
+
+grade 1 #C8E956
+grade 2 #B0CF42
+grade 3 #A5C439
+grade 4 #96B42D
+grade 5 #7E9821
+
+*/
+
+header {
+    background-image: url('../img/apple.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    height: 258px;
+}
+
+#img_txt {
+    border-bottom: 1px solid #A5C439;
+}
+
+#img_txt img {
+    vertical-align: bottom;
+}
+h1{
+    display: inline;
+    color: #A5C439;
+    font-weight: 600
+}
+
+h3 {
+    margin-left: 20px;
+    border-left: 5px solid #A5C439;
+    padding-left: 5px;
+    color:#A5C439;
+    border-bottom: 1px solid #A5C439;
+    font-weight: 600
+}
+
+header img {
+    position: absolute;
+}
+
+header img:nth-child(2) {
+    right:0;
+    margin:10px;
+}
+
+ul {
+    background-image: url('../img/bg_menu.gif');
+    background-position-y: 35px;
+    width:100%;
+    height:35px;
+    padding:0;
+    margin: 0;
+
+}
+ul:hover {
+    background-image: url('../img/bg_menu.gif');
+    background-position-y:0;
+    background-repeat: repeat-x;
+    height:25px;
+    margin-bottom:10px;
+}
+ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    float: left;
+    list-style: none;
+    width: 125px;
+    border-right: 2px solid #eee;
+    height: 35;
+    text-align: center;
+    line-height: 25px;
+}
+
+ul li a {
+    text-decoration: none;
+    color:#FFF;
+}
+
+#section1 {
+    float: left;
+    height:100%;
+    width: 60px;
+    margin:50px 0px 0 20px;
+}
+
+#section2 {
+    width: 620px;
+    float: right;
+    margin:25px;
+}
+
+p {
+    text-indent: 30px;
+    line-height: 25px;
+}
+
+footer {
+    clear: both;
+    text-align: right;
+    color: #96B42D;
+    margin: 0 10px 5px 0;
+}

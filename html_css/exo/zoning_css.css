@@ -1,0 +1,42 @@
+
+
+#container {
+    width: 90%;
+    margin:  auto;
+    background:red;
+    border:1px solid black;
+
+}
+
+header {
+    width: 100%;
+    background:#8E3557;
+    height:100px;
+}
+
+nav {
+    background: #4A1A2C;
+}
+
+section {
+    background:#FFF;
+    padding:10px;
+    height:300px;
+}
+
+.box {
+    float: left;
+    width:50%;
+    height:150px;
+}
+
+#a {background:#4A1A2C}
+#b {background:#787746}
+#c {background:#E6E2AF}
+#d {background:#ADD8E6}
+
+footer {
+    width: 100%;
+    height:100px;
+    background: #4A1A2C;
+}
