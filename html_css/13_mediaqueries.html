@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exo Media Queries</title>
+    <script
+    src="http://code.jquery.com/jquery-1.8.0.min.js"
+    integrity="sha256-jFdOCgY5bfpwZLi0YODkqNXQdIxKpm6y5O/fy0baSzE="
+    crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+
+</head>
+<body>
+    <div class="zone">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    </div>
+    <br>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Lists</li>
+            <li>Lorem</li>
+            <li>Ipsum</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <style>
+
+        .zone {
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: lightblue
+        }
+        
+        ul {
+            padding:0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        
+        ul li {
+                list-style:none;
+                background: #eee;
+                height:50px;
+                width:calc(100% / 5);
+                text-align: center;
+                line-height: 50px;
+        }
+        
+        @media screen and (max-width: 1200px) {
+            .zone {
+                background-color:seagreen;
+                padding:10px;
+                height:100px;
+            }
+        
+                ul {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+                ul li {
+                height:50px;
+                width:calc(100% / 5);
+                text-align: center;
+                line-height: 50px;
+            }
+        }
+        
+        @media screen and (max-width: 996px) {
+            .zone {
+                background-color:lightcoral;
+                padding:10px;
+                height:100px;
+            }
+        
+            ul {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            ul li {
+                height:50px;
+                width:calc(100% / 5);
+                text-align: center;
+                line-height: 50px;
+            }
+        }
+        
+        @media screen and (max-width: 458px) {
+            .zone {
+                background-color:lightsalmon;
+                position: relative;
+            }
+        
+            ul {
+                width: 100%;
+                display: inline;
+                justify-content: center;
+            }
+        
+            
+            ul li {
+                height:50px;
+                width: 100%;
+                text-align: center;
+                line-height: 50px;
+
+            }
+            
+            
+        }
+            
+            
+        </style>
+</body>
+</html>

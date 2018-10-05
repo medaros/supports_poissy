@@ -1,0 +1,35 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(img/bkg.jpg);
+}
+
+h1, h2, h3, nav {
+    text-align: center;
+    background-color: #000;
+    color: #D2E7E2;
+    padding:1vw;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF;
+    padding:10px;
+    background:#555;
+    font-weight: bold;
+}
+
+code {
+    font-size: 1.5vw;
+    font-style: italic;
+    background-color: lightgray
+}
+
+div {
+    background-color: #FFF;
+    color:#000;
+    padding: 1vw;
+}
+
+img {
+    margin: 0 1vw;
+}
