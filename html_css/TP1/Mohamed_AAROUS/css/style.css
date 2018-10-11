@@ -1,0 +1,200 @@
+/* 
+
+    couleurs:
+
+    #f6f6f7; 
+    #cf884d;
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+
+html, body {
+    margin: 0; padding: 0;
+    /*background-color: #f6f6f7; */ /* ca marchera pas parceque l'image a une couleur blanc */
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* ----------------8<-------------[ Container ]------------------ */
+
+.container {
+    width:1000px;
+    margin: auto;
+}
+
+/* ----------------8<-------------[ header ]------------------*/
+
+header {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.titre.orange {
+    color:#cf884d;
+    font-size: 12px;
+    font-stretch: ultra-expanded;
+    letter-spacing: 2px;
+}
+
+.titreP {
+    margin:5px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    letter-spacing: 10px;
+    font-size: 36px;
+}
+
+/* ----------------8<-------------[ nav ]------------------ */
+
+nav {
+    text-align: center;
+    margin-bottom:50px;
+}
+
+nav a {
+    text-decoration: none;
+    color:#000;
+    font-size: 14px;
+}
+
+/* ----------------8<-------------[ image pricipal et description ]------------------ */
+
+#slider {
+    width: 100%;
+    height: 500px;
+    background-image: url('../img/plate.jpg');
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.slidertext {
+    height:auto;
+    width: 100%;
+    position: absolute;
+    top: calc(50% - 71px);
+}
+#slider p {
+    text-align: right;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.pExemple {
+    font-style: italic
+}
+
+.hr1 {
+    width: 62%;
+    /*text-align: right;*/ /* ca marche pas j'ai utilise align="right" dans html*/
+}
+
+/* ----------------8<-------------[ Boxes ]------------------ */
+
+.squares {
+    width:100%;height: 500px;
+    margin-bottom: 50px;
+}
+
+.squares.nomargin {
+    margin-bottom: 0;
+}
+
+.txt {
+    float: left;
+    width: 460px;
+    height: 460px;
+    margin:20px
+}
+.img {
+    background:#000;
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight:bolder;
+    margin: 0;
+}
+
+#description {
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.salle {
+    background-image: url('../img/resto_01.jpg');
+}
+
+.service {
+    background-image: url('../img/resto_02.jpg');
+
+}
+
+.dressage {
+    background-image: url('../img/resto_03.jpg');
+
+}
+
+.gout {
+    background-image: url('../img/resto_04.jpg');
+
+}
+
+#boxfooter {
+    background:#222;
+    color:#FFF;
+    padding:10px;
+    margin:10px;
+    font-size: 25px;
+    padding-right:40px;
+    font-weight: bold;
+}
+
+#boxfooter i {
+    margin-left: 15px;
+}
+
+/* ----------------8<-------------[ Footer ]------------------ */
+
+footer {
+    clear: both;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.logo {
+    background-image: url('../img/plan.png');
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.logotxt {
+    line-height: 150px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.adresse {
+    margin:0;
+    font-size: 14px;
+}
+
+h3 {
+    font-size: 28px;
+    font-style: italic;
+}

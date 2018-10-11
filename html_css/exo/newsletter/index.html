@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>News Letter</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            width: 700px;
+        }
+
+        table table {
+            width: 100%;
+        }
+
+        .head {
+            padding: 50px 0;
+        }
+
+        .nav {
+            width: calc(100% / 5);
+        }
+
+        .section {
+            padding: 15px 0;
+        }
+
+        .side {
+            padding: 100px 0;
+            position: relative;
+        }
+
+        .sub {
+            position: absolute;
+            bottom: 0;
+        }
+
+        .first {
+            font-family: verdana;
+            font-weight: bold;
+            color:red;
+            border-color:black;
+            padding:0;
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="t1" border="1">
+        <tr>
+            <td colspan="5" class="head">Espace 1</td>
+        </tr>
+        <tr>
+            <td class="nav">Espace 2</td>
+            <td class="nav">Espace 3</td>
+            <td class="nav">Espace 4</td>
+            <td class="nav">Espace 5</td>
+            <td class="nav">Espace 6</td>
+        </tr>
+
+        <tr>
+            <td colspan="5" class="section">Espace 7</td>
+        </tr>
+
+        <tr>
+            <td colspan="5" class="section">Espace 8</td>
+        </tr>
+
+        <tr>
+            <td colspan="3" class="side first" rowspan="2">Espace 9</td>
+            <td colspan="2" class="side">Espace 10</td>
+        <tr>
+            <td>Espace 11</td>
+            <td>Espace 12</td>
+        </tr>
+        </tr>
+
+        <tr>
+            <td colspan="5">Espace 13</td>
+        </tr>
+    </table>
+</body>
+
+</html>
