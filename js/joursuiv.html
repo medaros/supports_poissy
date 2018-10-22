@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jour Suivant</title>
+	<meta charset="UTF-8">
+
+</head>
+
+<body>
+	<h1>Jour Suivant</h1>
+		<p>Ecrivez un programme jour_suivant.js qui fait saisir un nom de jour de la semaine à l'utilisateur, puis affiche le nom du jour suivant.</p>
+		<p>Les erreurs de saisie (jour incorrect) doivent être gérées.</p>
+		<p>Effectuez l'exercice avec des if/if else puis avec un switch.</p>
+
+<script type="text/javascript" >
+
+    var jour = prompt("Entrez le jour de la semaine");
+
+    if (jour === "lundi") {
+        alert("Demain nous sommmes Mardi")
+    } else if (jour === "mardi") {
+        alert("Demain nous sommmes Mercredi")
+    }
+    else if (jour === "mercredi") {
+        alert("Demain nous sommmes Jeudi")
+    }
+    else if (jour === "jeudi") {
+        alert("Demain nous sommmes Vendredi")
+    }
+    else if (jour === "vendredi") {
+        alert("Demain nous sommmes Samedi")
+    }
+    else if (jour === "samedi") {
+        alert("Demain nous sommmes Dimanche")
+    }
+    else if (jour === "dimanche") {
+        alert("Demain nous sommmes Lundi")
+    } else {
+        alert("CRITICAL ERROR!")
+    }
+// //Avec switch
+// switch (jour) {
+//     case "lundi":
+//         console.log("Demain, on est mardi !");
+//     break;
+//     case "mardi":
+//         console.log("Demain, on est mercredi !");
+//     break;
+//     case "mercredi":
+//         console.log("Demain, on est jeudi !");
+//     break;
+//     case "jeudi":
+//         console.log("Demain, on est vendredi !");
+//     break;
+//     case "vendredi":
+//         console.log("Demain, on est samedi !");
+//     break;
+//     case "samedi":
+//         console.log("Demain, on est dimanche !");
+//     break;
+//     case "dimanche":
+//         console.log("Demain, on est lundi !");
+//     break;
+//     default:
+//         console.log("Jour inconnu au bataillon !");
+//     }
+//Exercice 8
+// var bac = Number(prompt("Entrez votre moyenne :"));
+// if ((bac >=0) && (bac < 10)){
+//     alert("Recalé !")
+// }else if ((bac >= 10) && (bac < 12)){
+//     alert("Reçu !")
+// }else if((bac >= 12) && (bac <=20)){
+//     alert("Reçu avec mention !")
+// }else{
+//     alert("Vas réviser banane !")
+// }
+
+//Exercice 9
+var nb1 = Number(prompt("Entrez nombre1 :"));
+var nb2 = Number(prompt("Entrez nombre2 :"));
+var nb3 = Number(prompt("Entrez nombre3 :"));
+if (nb1 > nb2) {
+   nb1 = nb3 * 2;
+} else {
+   nb1++;
+   if (nb2 > nb3) {
+       nb1 = nb1 + nb3 * 3;
+   } else {
+       nb1 = 0;
+       nb3 = nb3 * 2 + nb2;
+   }
+}
+
+</script>
+</body>
+</html>

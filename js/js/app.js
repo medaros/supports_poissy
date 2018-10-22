@@ -392,8 +392,8 @@ var resultat1 = nombre1 + nombre2;
 var resultat2 = nombre1 - nombre2;
 var resultat3 = nombre1 / nombre2;
 var resultat4 = nombre1 * nombre2;
-alert("Le resultat de la somme entre nombre1 => " + nombre1 + " nombre2=> " + nombre2 + 
-" Est egale a: \n addition " + resultat1 + 
+alert("Le resultat d'operations entre nombre1 => " + nombre1 + " nombre2=> " + nombre2 + 
+" Est: \n addition " + resultat1 + 
 "\n soustraction " + resultat2 + 
 "\n division " + resultat3 + 
 "\n multiplication " + resultat4 + "\n");*/
@@ -417,4 +417,23 @@ function moyenne() {
 //console.log(case1 + case2 + case3);
 
 //Exercice7: Ecrire le code d'un fichier HTML qui permet de saisir le numéro du mois et l’année  puis affiche le nombre de jours.
+/*
+var mois = Number (prompt("Entrez un mois en chiffre")), annee = Number(prompt("Entrez L'annnee"));
 
+switch(mois) {
+    case 1: case 3: case 5: case 7: case 8: case 10: case 12: j = 31; break;
+    case 4: case 6: case 9: case 11: j = 30; break;
+    case 2: if(annee%4==0) {
+        j= 29;
+    } else {
+        j= 28;
+    }
+    break;
+}
+
+alert("Le mois de " + mois + " a " + j);
+
+//Exercice: Ecrire le code d'un fichier HTML permettant d’afficher la table de multiplication d'un entier compris entre 1 et 10.
+
+var n = Number(prompt("Saisir un entier"));
+*/
