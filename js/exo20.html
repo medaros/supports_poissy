@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+
+        // 
+        //alert ("hello");
+
+
+
+
+
+        function jeu() {
+            var score_user =0;
+            var guess = prompt(' pierre ciseaux ou feuille?');
+            var computer_guess = Math.floor(Math.random() * 3) + 1;
+
+            //console.log(computer_guess);
+
+            // changer les valeur generer par random de chiffre a texte
+            if (computer_guess == 1) {
+                computer_guess2 = "pierre_pc";
+                computer_guess = "pierre"
+            }
+
+            if (computer_guess == 2) {
+                computer_guess2 = "ciseaux_pc";
+                computer_guess = "ciseaux"
+            }
+
+            if (computer_guess == 3) {
+                computer_guess2 = "feuille_pc";
+                computer_guess = "feuille"
+            }
+            /* Une seule fois */
+
+            // egalite
+            if (guess == computer_guess) {
+                alert("egalite");
+            }
+
+            // utilisateur gagne
+            if (guess == "pierre" && computer_guess2 == "ciseaux_pc" ||
+                guess == "feuille" && computer_guess2 == "pierre_pc" ||
+                guess == "ciseaux" && computer_guess2 == "feuille_pc"
+            ) {
+                alert("utilisateur gagne" + guess + ' ' + computer_guess);
+                score_user++;
+            }
+
+            // utilisateur perdu
+            if (computer_guess2 == "pierre_pc" && guess == "ciseaux" ||
+                computer_guess2 == "feuille_pc" && guess == "pierre" ||
+                computer_guess2 == "ciseaux_pc" && guess == "feuille"
+            ) {
+                alert("utilisateur perdu" + guess + ' ' + computer_guess);
+                score_user--;
+            }
+
+            console.log("score_user " + score_user + ' ' + "score_pc " + score_pc);
+        }
+
+        var score_user = 0;
+        jeu(score_user);
+
+
+    </script>
+</body>
+
+</html>
