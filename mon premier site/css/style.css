@@ -1,8 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
+*{
+    box-sizing: border-box;  /*ça bloque l'élement, le recentre et ça fait une marge*/
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -12,100 +10,205 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-	background: #fff;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
-
-/*************************************************************************/
-*{/***********************************************************************/
-/**/box-sizing: border-box;/**********************************************/
-}/************************************************************************/
-/*************************************************************************/
-@import url('https://fonts.googleapis.com/css?family=Caveat|Charmonman|Kaushan+Script');
-header {
-    width: 100%;
-    background: #44af69;
+h1{
+   font-size: 70px;
+   color: white;
+   margin-top: 50px;
+   text-align: center;
+    font-family: 'Amatic SC', cursive;
+	font-weight: 400;
+	float: left;
 }
-
-h1 {
-    font-size: 2rem;
-    color: #111;
-    padding: 10px;
-    font-weight:bold;
-    font-family: sans-serif;
-    text-align: center
-}
-
 h2{
-	font-size: 50px;
-	color: #111;
-	padding: 20px;
-	font-weight: bold;
-	font-family: 'Niramit', sans-serif;
- }
- 
- h3{
-	font-size: 22px;
-	color: #111;
-	padding: 15px;
- }
- 
- h5{
-	font-size: 85px;
-	color: white;
-	text-shadow: 0 0 10px blue;
-	padding: 20px;
-	font-weight: bold;
-	font-family: 'Niramit', sans-serif;
- }
- 
- blockquote{
-	font-style: italic;
+   font-size: 50px;
+   color: CRIMSON;
+   padding: 20px;
+   font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+
+}
+h3{
+   font-size: 22px;
+   color: #2c3e50;
+   padding: 15px;
+}
+h4{
+    text-align: center;
+    margin-top: 30px;
+    color: #2c3e50;
+    font-size: 20px;
+}
+h5{
+   font-size: 85px;
+   color: /*CRIMSON*/purple;
+   padding: 20px;
+   font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+blockquote{
+   font-style: italic;
+   font-size: 120%;
+}
+strong{
+   font-weight: bold;
+}
+main{
+    margin: 0 auto;
+	width: 1000px;
+	background:papayawhip;
+}
+aside{
+   /*height: 250px;*/
+   height: 300px;
+
+}
+section{
+   margin-top: 50px;
+   /*background: THISTLE;*/
+   padding: 20px;
+}
+footer{
+   background:MISTYROSE;
+   height: 30px;
+}
+/*********************************  DEBUT HEADER  ***********************************/
+header{
+   background-color:SLATEGRAY;
+   height:170px;
+}
+#logo{
+ width: 25%;
+ text-align: center;
+ padding: 15px;
+ float: left;
+}
+#rs{
+ width: 10%;
+ float: right;
+ padding: 10px;
+}
+#rs a{
+font-size: 30px;
+color: white;
+display: block;/*change leur type inline en block pour les mettre les uns en dessous des autres*/
+text-align: center;
+padding: 15px 30px 0 0;
+text-decoration: none;
+}
+#rs a:hover{
+ font-size: 60px;
+ transition: 1s;
+}
+/**********************FIN DE HEADER*******************/
+/*********************DEBUT DE NAV*********************/
+nav{
+ background-color: MISTYROSE;
+ border-bottom: 4px solid slategray;
+ text-align: center;
+ padding: 17px;
+ clear: both;
+}
+nav a{
+ font-family: 'Amatic SC' cursive;
+ font-size: 25px;
+ text-decoration: none;
+ color: black;
+ font-weight: 500;
+ border: 1px solid pink;
+ padding: 6px 9px;
+ border-radius: 7px;
+ margin: 0px 8px;
+}
+nav a:hover{
+ background: pink;
+ transition: 1s;
+}
+.active{
+ background: pink;
+}
+.roboto p {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.select p {
+	color:red;
+}
+.select p:first-of-type {
+	color: purple;
+}
+.select p:last-of-type {
+	color: purple;
+}
+.select p:nth-of-type(5), .select p:nth-of-type(6) {
+	color: black;
+}
+.select .zoneB .couleurbleu {
+	color:blue;
+}
+.select #zoneD span {
+	color: #32ff32;
+	
+}
+.select .zoneA {
+	color: #963;
+}
+.select #zoneC {
+	color: #98f32f;
+}
+.select #zoneD {
+	font-weight: bolder;
+}
+.imageFond {
+	background: #000 url('../img/fond.jpg') no-repeat;
+	background-size: cover;
+}
+.imageFond p {
+	width:75%;
+	margin:100px auto 200px auto;
+	background: rgba(255, 255, 255, .6);
+	padding:20px;
 	font-size: 120%;
-	color:#333;
- }
+	border-radius:10px;
+}
+.tourEiffel img{
+	border:5px solid #000;
+	box-shadow: 3px 0 7px;
+	display: block;
+	margin:auto;
+}
+.francisco img {
+	border: 5px solid #fff;
+	box-shadow: 0 0 10px;
+	margin: 20px;
+	transition: .4s;
 
- p {
-	 color: #333;
- }
-
- main {
-	 width: 1000px;
-	 margin:auto;
- }
-
- aside {
-	 background: radial-gradient( #0a2342, #000)
- }
+}
+.francisco p img:first-of-type:hover {
+	transform: rotateZ(-20deg);
+transition: .4s;
+}
+.francisco p img:last-of-type:hover {
+transform: rotateZ(-20deg);
+transition: .4s;
+}
+.francisco .lstimg{
+	display: block;
+	margin: auto;
+	
+}
+.francisco .lstimg:hover {
+	transform: rotateZ(-360deg);
+transition: .4s;
+}
