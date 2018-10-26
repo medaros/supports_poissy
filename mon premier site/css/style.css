@@ -101,7 +101,7 @@ header{
  padding: 10px;
 }
 #rs a{
-font-size: 30px;
+font-size: 25px;
 color: white;
 display: block;/*change leur type inline en block pour les mettre les uns en dessous des autres*/
 text-align: center;
@@ -109,8 +109,8 @@ padding: 15px 30px 0 0;
 text-decoration: none;
 }
 #rs a:hover{
- font-size: 60px;
- transition: 1s;
+ font-size: 30px;
+ transition: .4s;
 }
 /**********************FIN DE HEADER*******************/
 /*********************DEBUT DE NAV*********************/
@@ -211,4 +211,346 @@ transition: .4s;
 .francisco .lstimg:hover {
 	transform: rotateZ(-360deg);
 transition: .4s;
+}
+.centre {
+    margin:auto;
+    width:500px;
+    background: #3cc;
+    color:#fff;
+    text-align: center;
+    line-height: 180px;
+    font-size: 50px;
+    font-style:italic;
+}
+.relative {
+    background:red;
+    width:500px;
+    height:500px;
+    position:relative;
+    bottom:50px;
+    margin:auto;
+}
+.relative div{
+    position: absolute;
+    bottom:10px;
+    width:50px;
+    height:50px;
+    background:blue;
+}
+button {
+    position: fixed;
+    background: transparent;
+    right:20px;
+    cursor: pointer;
+    font-size: 350%;
+    color: slategray;
+    border: none;
+    bottom:40px;
+}
+button:hover {
+    color:pink;
+    transition: 1s;
+}
+.trente {
+    width: 30%;
+    padding: 20px;
+    font-size: 22px;
+    background: #f1684e;
+    color: #efe94b;
+    font-weight: bold;
+}
+.cinquante {
+    margin: 10px 0;
+    width: 50%;
+    padding: 20px;
+    font-size: 22px;
+    background: limegreen;
+    color: #efe94b;
+    font-weight: bold;
+}
+.cent {
+    margin: 10px 0;
+    width: 100%;
+    padding: 20px;
+    font-size: 22px;
+    background: skyblue;
+    color: #efe94b;
+    font-weight: bold;
+}
+.carre {
+    width:170px;
+    height:170px;
+    background:orange;
+    border: 3px solid #3cc;
+    float: left;
+    text-align: center;
+    line-height: 170px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .5)
+}
+.carre:hover {
+    background: #dc143c;
+    border: 15px solid lightseagreen;
+    transition:1s;
+    transform:rotate(45deg);
+    border-radius:85px;
+}
+.float2{
+    margin:auto;
+    width:100%;
+}
+.rect{
+    height:40px;
+    background:darkseagreen;
+}
+.c1, .c2, .c3, .c4 {
+    width:25%;
+    height:250px;
+    float: left;
+}
+.c1 {background:lightpink}
+.c2 {background: lightsalmon}
+.c3 {background:turquoise}
+.c4 {background: rosybrown}
+.clear {
+    clear: both;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.flex div {
+    width:150px;
+    height:150px;
+    background: indianred;
+    border:3px solid;
+    text-align: center;
+    font-size: 50px;
+    color:#fff;
+}
+.zoning {
+    width:80%;
+    height:800px;
+    border:2px solid #000;
+    margin:auto;
+}
+
+.first {
+    width:100%;
+    height:30%;
+    background: green;
+
+}
+
+.nd {
+    width: 65%;
+    height: 70%;
+    background: orange;
+    float: right;
+}
+.rd {
+    width: 35%;
+    height: 70%;
+    background: maroon;
+    float: left;
+}
+.zoning2 {
+    width:80%;
+    height:800px;
+    border:2px solid #000;
+    margin:auto;
+}
+
+.first2 {
+    width:100%;
+    height:30%;
+    background: green;
+
+}
+
+.nd2 {
+    width: 20%;
+    height: 70%;
+    background: orange;
+    float: left;
+}
+.rd2 {
+    width:60%;
+    height: 70%;
+    background: maroon;
+    float: left;
+}
+
+.rth2 {
+    width: 20%;
+    height: 70%;
+    background: orange;
+    float: right;
+}
+.zoning3 {
+    width:80%;
+    height:800px;
+    border:2px solid #000;
+    margin:auto;
+}
+.droite {
+    width: 50%;
+    height: 80%;background: red;
+    float: left;
+}
+.gauche {
+    width: 50%;
+    height: 80%;background: green;
+    float: left;
+
+}
+.bas {
+    width:100%;
+    height:20%;
+    background: blue;
+    clear: both;
+}
+.zoning4 {
+    width:80%;
+    height:800px;
+    border:2px solid #000;
+    margin:auto;
+}
+.st {
+    height: 10%;
+    width: 100%;
+    background: green;
+}
+.st.light {
+    height: 5%;
+    background:greenyellow;
+}
+.center {
+    width: 90%;
+    height: 55%;
+    margin:5%;
+    background:red;
+}
+.center.bg {
+    background-image: url(../img/fond.jpg);
+    background-size: cover;
+}
+.A, .B, .C, .D {
+    width: 50%;
+    height: 50%;
+    float: left;
+    border-radius: 0;
+    text-align: center;
+    color: #fff;
+}
+.B {
+    background:greenyellow;
+}
+.C {
+    background:navy;
+}
+.D {
+    background:orangered;
+}
+.A:hover {
+    background:transparent;
+    transform: rotateZ(360deg);
+    transition: 1s;
+    border-radius: 50px;
+
+}
+.B:hover {
+    background:transparent;
+    transform: rotateZ(360deg);
+    transition: 1s;
+    border-radius: 50px;
+
+}
+.C:hover {
+    background:transparent;
+    transform: rotateZ(360deg);
+    transition: 1s;
+    border-radius: 50px;
+
+}
+.D:hover {
+    background:transparent;
+    transform: rotateZ(360deg);
+    transition: 1s;
+    border-radius: 50px;
+
+}
+.zoning6 {
+    width:80%;
+    height:800px;
+    border:3px solid #000;
+    margin:auto;
+}
+.hdr {
+    height:15%;
+    width:100%;
+}
+.haut1, .haut2 {
+    background:pink;
+    width:20%;
+    height:100%;
+}
+
+.haut1 {
+    float: left;
+}
+.haut2 {
+    float: right;
+}
+.haut3 {
+    background: #2c3e50;
+    width:60%;
+    height:100%;
+    float: left;
+}
+
+.mnu {
+    line-height: 50px;
+    text-align: center;
+    background: orange;
+}
+.side {
+    float: left;
+    width: 30%;
+    height: calc(65% - 50px);
+    background:red;
+}
+.right {
+    float: right;
+    width: 70%;
+    height: calc(65% - 50px);
+}
+.aa, .bb, .show {
+    height:40%;
+    float: left;
+}
+.aa, .bb {
+    width: 50%;
+    background: greenyellow;
+}
+.aa {
+    background: #963;
+}
+
+.show {
+    width:100%;
+    background: lightblue
+}
+.cc, .dd, .ee, .ff {
+    width: 25%;
+    float: left;
+    text-align: center;
+    background: pink;
+    height: 20%;
+}
+
+.cc, .ee {
+    background: gray;
 }
