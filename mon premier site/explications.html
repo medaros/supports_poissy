@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="">
+    <meta name="author" content="Mohamed AAROUS">
+    <meta name="description" content="">
+    <title>Mon premier site pas online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./lib/font-awesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href=""><img src="IMG/logo_360.png" alt="logo"></a>
+        </div>
+        <div id="slogan">
+            <h1>Mon premier site en HTML et CSS</h1>
+        </div>
+        <div id="rs">
+            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+        </div>
+        <div class="clear"></div>
+    </header>
+    <nav>
+        <a href="structure.html">Structure</a>
+        <a href="explications.html" class="active">explications</a>
+        <a href="text.html">Texte</a>
+        <a href="selecteurs.html">Selecteurs</a>
+        <a href="image.html">Image</a>
+        <a href="positions.html">Positions</a>
+        <a href="zoning.html">Zoning</a>
+        <a href="listes.html">Listes</a>
+        <a href="lienmenu.html">Lien & menu</a>
+        <a href="tableau.html">Tableau</a>
+        <a href="form.html">Formulaire</a>
+        <a href="media.html">Multimedia</a>
+        <a href="animation.html">Animation</a>
+        <a href="fancybox.html">Fancy box</a>
+    </nav>
+    <main>
+        <section>
+            <h3><mark>Les figcaption</mark></h3>
+            <div class="texte"><p>
+                -1 Un navigateur n'implementant pas ces elements affichera le contenu au format brut, sans presentation particuliere. par defaut le style applique est <strong><u>display: block</u></strong>
+                sur les deux elements , ainsi que des marges sur <strong>figure</strong>
+            </p>
+            <br>
+            <p>
+                -2 Applications sur le web
+                Utilisation sans legende Il est tout a fait envisageable dinserer <strong>"figcaption"</strong>
+                avant l'image voire de ne pas le mettre du tout car il est facultatif.
+                <figure>
+                    <img src="img/clochette.jpg" alt="Proposition pour le theme : une_petite_fee">
+                </figure>
+                les differents elements peuvent etre styles en CSS
+            </p>
+            <br>
+            <p>
+                -3 une image avec sa legend
+                Dans son usage le plus courant, l'element <strong>"figure"</strong>
+                contient une image puis sa legende<strong>"figcaption"</strong>
+                <figure>
+                    <img src="img/clochette.jpg" alt="Proposition pour le theme : une_petite_fee">
+                </figure>
+        
+            </p>
+            <br>
+            <p>
+                -4 Utilisation avancee
+                Il est prevu de pouvoir regrouper une liste d'images et ainsi les lier a laide dun unique element<strong>"figcaption"</strong>
+                un liste d'image
+                <figure>
+                    <img src="img/paris1.jpg" alt="Photo de paris">
+                    <img src="img/paris2.jpg" alt="Photo de paris">
+                    <img src="img/paris3.jpg" alt="Photo de paris">
+                    <figcaption>Visiter paris . ville pleine de charme  de mystere et decouvertes</figcaption>
+                </figure>
+            </p>
+            <br>
+            <p>
+                -5 Un bloc de code
+                Les illustrations ne sont pas les seuls elements html a pouvoir profiter description<strong>"figure"</strong>
+                et <strong>"figcaption</strong>. On peut egalement
+                les appliquer a un bloc de code source.
+                <figure>
+                    <pre>
+                        <code>
+                            <!-- Le code source a exposer -->
+                        </code>
+                    </pre>
+                    <figcaption>Description du code source presente</figcaption>
+                </figure>
+            </p>
+            <br>
+            <p>
+                -6 Une video
+                Le meme principe est applique a la balise <strong>"video"</strong>
+                <figure>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/O2jj3YbgX_w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <figcaption>Description de la video</figcaption>
+                </figure>
+                Les diagrammes et autres graphes dymaniques
+                Du cote de <mark>Canvas et SVG</mark>, le document peut egalement en profiter. html5 ne compte pas que <strong>"figure"</strong>
+                <strong>"figcaption"</strong> dans ses nouveaux elements mais egalement <strong>"canvas"</strong>, qui vous permettra de creer, en association with javascript des diagrammes des graphiques et tout ce quune  surface de dessin permet de faire. A ce sujet consultez larticle de david rousset : introduction aux apis graphiques html5 : svg et canvas
+                choisir <strong>"figure"</strong> ou <strong>"aside"</strong> ?
+                Ces deux elements sont des unites de contenu mais nont pas le meme role semantique. Tandis qu'<strong>"aside"</strong> n'est pas essentiel pour la comprehension de la page <strong>"figure"</strong> est lie a celle-ci : il transmet un contenu pertinent, lie au contenu principal, comme le serait une image classique.
+                Nous pouvons donc resumer la chose comme suit: <br>
+                <strong><mark>"aside"</mark></strong> : son contenu est peripherique a la page et son absence ne doit pas gener la comprehension de celle-ci<br>
+                <strong><mark>"figure"</mark></strong> : son contenu est contribue a donner du sens et de la comprehension a la page, et son placement nest pas determinant.</p>
+                <br>
+                <mark>illustration legendee</mark>
+                Inaugures avec html5, les elements <strong>"figure"</strong> et <strong>"figcaption"</strong>
+                fonctionnent de concert pour assiocier une legende a une illustration ou  un autre element media.
+                <figure>
+                    <img src="img/chien.png" alt="manga">
+                    <figcaption>manga</figcaption>
+                </figure>
+                Element <strong>figure</strong>
+                <mark>figure</mark> est une unite de contenu, cest a dire que cet element sert de conteneur dans laquel sinserent divers elements comme des images, des schemas des videos des tableaux ou encore des blocs de code.
+                L'objectif est de lier ce contenu a une legende definie par lelement <mark>figcaption</mark> (facultatif).
+                element <figcaption>
+                    enfant direct de <figure>, son role est de legender son parent sous forme de texte et ou de liens. il peut se placer avant ou apres le contenu principal de <figure>.
+                </figcaption>
+                
+            </p>
+        </div>
+        </section>
+    </main>
+    <a href="#logo">
+        <button type="button"><i class="fa fa-arrow-circle-up"></i></button>
+    </a>
+    <footer>
+        <!-- zone du bas -->
+
+    </footer>
+</body>
+
+</html>

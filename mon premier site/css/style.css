@@ -242,10 +242,10 @@ button {
     background: transparent;
     right:20px;
     cursor: pointer;
-    font-size: 350%;
     color: slategray;
     border: none;
     bottom:40px;
+    font-size: 30px !important;
 }
 button:hover {
     color:pink;
@@ -534,7 +534,16 @@ button:hover {
 .aa, .bb {
     width: 50%;
     background: greenyellow;
+    
 }
+
+.B:hover {
+    background: url('../img/fond.jpg');
+    background-size: 200%;
+    border-radius: 0;
+    background-position: 100% 0;
+}
+
 .aa {
     background: #963;
 }
@@ -553,4 +562,474 @@ button:hover {
 
 .cc, .ee {
     background: gray;
+}
+
+/************ listes *****************/
+.ul1 li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.ul1 li i {
+    color: tomato;
+    margin-right: 5px;
+}
+
+.li1 {
+    color: tomato;
+    float: left;
+    list-style: none;
+}
+
+.ul2 i {
+    margin-right: 5px;
+}
+
+.ul2 span {
+    clear: both;
+}
+
+.li2 {
+    color: tomato;
+    float: left;
+    list-style: none;
+}
+
+.ul21, .ul22 {
+    margin: 0 30px;
+}
+
+ul li:hover, span:hover, i:hover, i:hover span {
+    transition: 1s;
+    font-size: 30px;
+    color: tomato;
+}
+
+.lm-menu {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.lm-menu a {
+    background: orangered;
+    padding: 5px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
+}
+
+.lien {
+    margin: 5px 0;
+    display: inline-block;
+}
+
+.lien a{
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.lien:hover {
+    transition: none;
+    font-size: inherit;
+    color: inherit;
+}
+
+.lm-menu a:hover{
+    font-size: 150%;
+    transition: 1s;
+}
+
+.lm-menu.menu2 a {
+    font-size: 14px;
+    background: #fff;
+    color: #f1684e;
+    border: 2px solid #f1684e;
+    padding: 10px 5px;
+    box-shadow: none;
+    font-family: cursive;
+}
+
+.lm-menu.menu2 a:hover {
+    transition: 1s;
+    font-size: 14px;
+    background-color: #f1684e;
+    color: #fff;
+}
+
+.lm-menu.menu3 {
+    background: skyblue;
+    padding:8px 0;
+    width: 60%;
+    margin: auto;
+}
+
+.lm-menu.menu3 a {
+    font-size: 14px;
+    background: #ff6546;
+    color: #333;
+    border: 2px solid #c5523b;
+    padding: 5px 15px;
+    box-shadow: none;
+    font-family: cursive;
+}
+
+.lm-menu.menu3 a:hover {
+    transition: 1s;
+    font-size: 14px;
+    background-color: #f1684e;
+    color: #fff;
+}
+
+/***********/
+
+.menu{
+    color: #051404;
+    margin: 30px;
+    text-align: center;
+ }
+ 
+ #amenu{
+    text-align: left;
+ }
+ 
+ .menuderoulant a{
+    border: 1px solid #43fa2e;
+    background-color: #093f05;
+    color: #43fa2e;
+    border-radius: 7px;
+    padding: 5px 20px;
+    margin:30px;
+    text-decoration: none;
+ }
+ 
+ .menu a:hover{
+    font-size:20px;
+    color:rgb(207, 250, 178);
+ }
+
+.menuderoulant{
+    color: #051404;
+    margin: 30px 30px 250px 30px;
+    text-align: center; 
+}
+    .menuderoulant ul li{
+        list-style: none;
+        display: inline-block;
+        position: relative;
+    }
+        .menuderoulant ul li > ul{
+            list-style: none;
+            display: none;
+            background-color: #051404;
+            border: 2px solid #43fa2e;
+            border-radius: 7px;
+            position: absolute;
+            top: 35px;
+            left: 0;
+            width: 200px;
+            transform: translate(-12%);
+        }
+        .menuderoulant ul li:hover ul{
+            display: inline-block;
+        }
+            .menuderoulant ul li > ul li{
+                list-style: none;
+                display: block;
+                border-bottom: 1px solid #43fa2e;
+                /* margin: 15px 0; */
+                padding: 15px 0;
+            }
+            .menuderoulant ul li > ul li:hover{
+                background-color: #093f05;
+                transition: none;
+                    margin: 0;
+                    padding: 0;
+            }
+                .menuderoulant ul li > ul li a{
+                    background-color: transparent;
+                    border: none;
+                    transition: none;
+                    margin: 0;
+                    padding: 0;
+                    text-decoration: none;
+                }
+                    .menuderoulant ul li > ul li a:hover{
+                        font-size:100%;
+                    }
+
+
+/******** tables *********/
+
+table {
+    text-align: center;
+    margin:0 auto;
+    border: 2px solid royalblue;
+    border-collapse: collapse;
+    background: #fff;
+}
+table caption {
+    padding-top: 50px;
+    text-align: center;
+}
+
+td {
+    border-collapse: collapse;
+    border:1px solid royalblue;
+    width: 180px;
+    padding:5px 0;
+}
+
+tr:first-of-type, tr:last-of-type {
+    background: rgb(9, 120, 224);
+}
+
+/************************* FORMULAIRES ******************************/
+form{
+    border-radius: 14px;
+    background-color: lightcoral;
+    width: 65%;
+    margin: 0 auto;
+    padding: 20px;
+}
+label{
+    color:#fff;
+    margin: 10px 0;
+    width: 50%;
+    display: inline-block;
+}
+
+form input:nth-of-type(5){
+    border: none;
+}
+form input:nth-of-type(8){
+    border: none;
+}
+input:nth-of-type(7){
+    border: none;
+}
+label [for="question"], label [for="question"], label [for="question"]{
+    width: 10%;
+}
+textarea{
+    resize: none;
+    display: inline-block;
+}
+
+/*************** animation **********************/
+
+.infobulle {
+    width: 60%;
+    box-shadow: -1px 1px 20px 10px #333 inset;
+    background: #555;
+    text-align: center;
+    padding:30px 0;
+    margin: auto;
+    font-size: 22px;
+}
+
+.infobulle p {
+    padding: 25px 0;
+    position: relative;
+}
+
+.infobulle p a {
+    text-decoration: none;
+    color: #fff;
+}
+.infobulle p a:hover {
+    background: #2225;
+    padding:5px;
+    border-radius: 5px;
+    border-bottom: 5px solid #ddd;
+}
+
+.infobulle p span{
+    opacity: .5;
+    text-decoration: none;
+    color: #32ff32;
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    background: #222;
+    padding:10px;
+    border-radius: 5px;
+    transform:scale(0) rotateZ(-12deg);
+    z-index: 1;
+}
+
+.infobulle p span:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: -15px;
+
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #222;
+}
+
+.infobulle p a:hover ~ span {
+    opacity: 1;
+    transform:scale(1) rotateZ(0);
+    transition: .3s;
+}
+
+/********* ANIMATION **********/
+
+.survol {
+    width:100%;
+}
+
+.survol ul {
+    width: 320px;
+    height: 320px;
+    margin:70px auto;
+    /* background:red; */
+}
+
+.survol ul li {
+    float: left;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+    list-style: none;
+    position: relative;
+
+}
+.survol li:nth-of-type(3) {
+    clear: both;
+}
+
+.survol img {
+    position: absolute;
+    z-index: 1;
+    height: 150px;
+    box-shadow: 0 0 3px #000;
+    transition: .5s cubic-bezier(0,3,.4,1);
+}
+
+.survol li:hover img {
+    z-index: 2;
+    box-shadow: 0 0 3px #000;
+    transform: scale(1.5);
+}
+.survol:hover li:not(:hover) img {
+    filter: grayscale(1) blur(8px);
+}
+/*------- Menu rotation ---------*/
+#menuRotate{
+	height: 360px;
+	width: 576px;
+	margin: 100px auto;
+	background: mistyrose;
+	position: relative; /*absolute en foncction du body sauf si son parent est en relative*/
+	overflow: hidden;
+	border: 2px solid pink;
+}
+#menuRotate .masque{
+	position: absolute;
+	z-index: 50;
+	width: 585px;
+	height: 135px;
+	top: 0;
+	left: 0;
+	background: linear-gradient(pink, mistyrose);
+}
+#menuRotate .ombre{
+	position: absolute;
+	z-index: 40;
+	width: 300px;
+	height: 6px;
+	box-shadow: 0px 100px 3px black;
+	border-radius: 75px / 3px; /*rayon horizontaux / rayon verticaux*/
+	top: 32px;
+	left: 142px;
+}
+#menuRotate dl{
+	position: relative;
+	top: 0;
+	left: 50%;
+	margin-left: -75px;
+	width: 150px;
+	height: 155px;
+	color: white;
+	text-align: center;
+	background: CRIMSON;
+	border-radius: 4px;
+	box-shadow: 0 0 6px rgba(0,0,0,0.7);
+	transform-origin: 50% 120px;
+	animation: bounceOut 0.7s ease-in-out;
+}
+#menuRotate dt{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 30px;
+	padding-top: 5px;
+}
+#menuRotate dd{
+	transform: rotate(180deg);
+}
+#menuRotate dd a{
+	display: block;
+	height: 24px;
+	padding: 3px 0;
+	color: white;
+	text-decoration: none;
+}
+#menuRotate dd a:hover{
+	background: rgba(255,255,255,0.1);
+}
+#menuRotate dl:hover{
+	transform: rotate(-180deg);
+	animation: bounceIn 0.7s ease-in-out;
+}
+@keyframes bounceIn{
+	from{transform: rotate(0deg);}
+	75%{transform: rotate(-200deg);}
+	90%{transform: rotate(-175deg);}
+	to{transform: rotate(-180deg);}
+}
+@keyframes bounceOut{
+	from{transform: rotate(0deg);}
+	0%{transform: rotate(-180deg);}
+	10%{transform: rotate(-165deg);}
+	to{transform: rotate(-360deg);}
+}
+
+/***************** Multimedia *********************/
+.videoFond {
+    padding-left:0;
+    padding-right:0;
+}
+
+.videoFond video {
+    position:absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.videoTexte {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.videoFond p {
+    position: absolute;
+    transform: translate(-50%, -25%);
+    z-index:2;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    background: rgba(255, 255, 255, .6);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.audio {
+    text-align: center;
 }

@@ -32,13 +32,14 @@
     </header>
     <nav>
         <a href="structure.html">Structure</a>
+        <a href="explications.html">explications</a>
         <a href="text.html">Texte</a>
         <a href="selecteurs.html">Selecteurs</a>
         <a href="image.html">Image</a>
         <a href="positions.html">Positions</a>
         <a href="zoning.html">Zoning</a>
         <a href="listes.html">Listes</a>
-        <a href="lienmenu.html"  class="active">Lien & menu</a>
+        <a href="lienmenu.html" class="active">Lien & menu</a>
         <a href="tableau.html">Tableau</a>
         <a href="form.html">Formulaire</a>
         <a href="media.html">Multimedia</a>
@@ -46,14 +47,78 @@
         <a href="fancybox.html">Fancy box</a>
     </nav>
     <main>
-        
+        <h2>Les liens et les menus</h2>
+        <hr>
+        <div class="lm-menu">
+            <a href="#liens">Les liens</a>
+            <a href="#menus">Menus</a>
+            <a href="#md">Menu deroulant</a>
+        </div>
+        <hr>
+        <h3 id="liens">Les liens</h3>
+        <span class="lien"><a href="https://codepen.io" target="_blank">CodePen</a> is a social developpement
+            environnement for front-end designers and developpers.</span>
+        <br>
+        <span class="lien"><a href="https://www,google.com" target="_blank">Google</a> is a social developpement
+            environnement for front-end designers and developpers.</span>
+        <br>
+        <span class="lien"><a href="fichier/cv.pdf">Telecharger mon CV</a></span>
+        <br>
+        <span class="lien"><a href="fichier/cv.pdf" target="_blank">Voir mon CV</a></span>
+        <br>
+        <span class="lien"><a href="" onclick="window.print();">Imprimer la page</a></span>
+        <br>
+        <a href="http://facebook.com" target="_blank"><img src="./img/facebook.ico" alt="facebook">
+        </a>
+        <br>
+        <span class="lien">Cliquez<a href="structure.html"> ici </a>pour vous rendre sur ma page structure.</span>
+        <br>
+        <h3>Les menus</h3>
+        <div class="lm-menu menu2" id="menus">
+            <a href="#">Acceuil</a>
+            <a href="#">Parcours</a>
+            <a href="#">Realisation</a>
+            <a href="#">Contact</a>
+        </div>
+        <section class="menuderoulant">
+            <h3 id="amenuderoulant"> Les menus déroulants</h3>
+            <br><br>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Cours</a>
+                    <ul>
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">Java Script</a></li>
+                        <li><a href="#">PHP</a></li>
+                        <li><a href="#">MySQL</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">WEB</a>
+                    <ul>
+                        <li><a href="https://debray-jerome.developpez.com/articles/geometrie-avec-css/">Géométrie</a></li>
+                        <li><a href="https://www.w3schools.com/js/js_date_methods.asp">JS objets</a></li>
+                        <li><a href="https://fontawesome.com/">Fontawesome</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Profile</a>
+                    <ul>
+                        <li><a href="#">Téléchargement
+                                <br>CV</a></li>
+                        <li><a href="#">Téléchargement
+                                <br> Porte-folio </a></li>
+                    </ul>
+                </li>
+                <li><a href="#">A propos</a></li>
+            </ul>
+        </section>
     </main>
     <a href="#logo">
         <button type="button"><i class="fa fa-arrow-circle-up fa-4x"></i></button>
     </a>
     <footer>
         <!-- zone du bas -->
-        
+
     </footer>
 </body>
 
